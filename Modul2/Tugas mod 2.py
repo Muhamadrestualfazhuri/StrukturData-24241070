@@ -24,7 +24,7 @@ class DoubleLinkedList:
         """Menampilkan isi linked list"""
         curr = self.head
         while curr:
-            print(curr.data, end=" <-> ")
+            print(curr.data, end=" -> ")
             curr = curr.next
         print("None")
 
